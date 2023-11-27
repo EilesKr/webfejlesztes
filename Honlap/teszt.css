@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-size: 1em;
+  line-height: 1.25;
+  background-color: #1c1c1c;
+}
+
+.grid {
+  width: 100%;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transform: rotateX(45deg) rotateZ(8deg);
+}
+
+.grid-block {
+  width: 50%;
+  min-height: 11.25em;
+  padding: 16px;
+}
+
+.grid .tile-link:hover .tile-img {
+  top: -1em;
+  left: -1em;
+}
+
+.grid .tile-img {
+  position: relative;
+  top: 0;
+  left: 0;
+  transition-property: top left
+}
+
+.tile-img {
+  display: flex;
+  width: 100%;
+  transition-duration: 0.125s;
+  transition-timing-function: ease-in;
+  border-radius: 30px;
+}
+.tile-link:hover .tile-fekete {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.4),
+    10px 10px rgba(0, 0, 0, 0.3), 15px 15px rgba(0, 0, 0, 0.2),
+    20px 20px rgba(0, 0, 0, 0.1), 25px 25px rgba(0, 0, 0, 0.05);
+}
+
+.tile-link:hover .tile-feher {
+  box-shadow: 5px 5px rgba(233, 233, 233, 0.4), 10px 10px rgba(233, 233, 233, 0.3),
+    15px 15px rgba(233, 233, 233, 0.2), 20px 20px rgba(233, 233, 233, 0.1),
+    25px 25px rgba(233, 233, 233, 0.05);
+}
