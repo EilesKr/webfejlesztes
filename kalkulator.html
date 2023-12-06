@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulátor</title>
+    <meta name="author" content="Eiles Kristóf">
+    <meta name="copyright" content="Tanulási célra">
+    <meta name="description" content="Egy asztalos cég honlapja (html beadandó).">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.png">
+    <script src="js/kalkulator.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>ASZTALOS</h1>
+        <nav>
+            <a href="index.html">Rólunk</a>
+            <a href="referencia.html">Referencia</a>
+            <a href="elerhetoseg.html">Elérhetőség</a>
+            <a href="idopontfog.html">Időpontfoglalás</a>
+            <a href="#" class="active">Kalkulátor</a>
+        </nav>
+    </header>
+    <div class="container">
+        <article class="arkalkulator">
+            <h2>Árkalkulátor</h2>
+            <p class="idopontleir">
+                Kalkulátorunk segítségével könnyedén megtudhatja az Ön által kiválasztott szolgáltatások árát.
+            </p>
+        </article>
+        <article class="kalkulator">
+            <form>
+                <table class="kalkulator">
+                    <tr>
+                        <td>
+                            <label for="checkbox1">Konyhabútor</label>
+                        </td>
+                        <td class="kivalaszt">
+                            <input type="checkbox" id="checkbox1" value="1500000">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="checkbox2">Előszobaszekrény</label>
+                        </td>
+                        <td class="kivalaszt">
+                            <input type="checkbox" id="checkbox2" value="400000">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="checkbox3">Háztartási szekrény</label>
+                        </td>
+                        <td class="kivalaszt">
+                            <input type="checkbox" id="checkbox3" value="200000">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="checkbox4">Gardrób</label>
+                        </td>
+                        <td class="kivalaszt">
+                            <input type="checkbox" id="checkbox4" value="200000">
+                        </td>
+                    </tr>
+                </table>
+
+                <button type="button" class="eredmeny" onclick="calculateSum()">Kiszámítás</button>
+            </form>
+        </article>
+        <article>
+            <p id="eredmeny" class="szoveg">Itt fog megjelenni az eredmény!</p>
+        </article>
+        <article class="szoveg">
+            <p>
+                Itt egyszerűen és gyorsan megtudhatja, mennyibe kerülne az általános vagy egyedi asztal elkészítése
+                általunk. Kínálunk széles skálájú lehetőségeket, hogy az Ön elképzeléseinek megfelelően alakítsa ki
+                álmai bútorát. Kalkulátorunk segítségével könnyedén beállíthatja az asztal méreteit, anyagát,
+                kivitelezési részleteket, és azonnal megtudhatja az árát.
+            </p>
+            <p>
+                Az árkalkulátorunk az Ön által kiválasztott paraméterek alapján azonnal kiszámolja az elkészítendő
+                asztal várható költségeit. Így könnyedén nyomon követheti a költségeket, és szükség esetén módosíthatja
+                az opciókat a költségek optimalizálása érdekében. <br>
+            </p>
+            <p>
+                Ha készen áll az egyedi asztalára vonatkozó árajánlat kérése elküldésére, egyszerűen vegye fel velünk a
+                kapcsolatot a megadott elérhetőségeinken, és szakértőink örömmel állnak rendelkezésére, hogy további
+                részleteket egyeztessenek Önnel.
+            </p>
+            <p>
+                Várjuk szeretettel álmai asztalának elkészítésében való részvételét!
+            </p>
+
+        </article>
+    </div>
+    <footer>
+        Készítette: Eiles Kristóf
+    </footer>
+</body>
+
+</html>
