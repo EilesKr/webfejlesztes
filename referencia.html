@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Időpont foglalás</title>
+    <meta name="author" content="Eiles Kristóf">
+    <meta name="copyright" content="Tanulási célra">
+    <meta name="description" content="Egy asztalos cég honlapja (html beadandó).">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/icons/favicon.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/classic/galleria.classic.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#images').galleria(
+                width = 500,
+                height = 500
+            );
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>ASZTALOS</h1>
+        <nav>
+            <a href="index.html">Rólunk</a>
+            <a href="#" class="active">Referencia</a>
+            <a href="elerhetoseg.html">Elérhetőség</a>
+            <a href="idopontfog.html">Időpontfoglalás</a>
+            <a href="kalkulator.html">Kalkulátor</a>
+        </nav>
+    </header>
+    <div class="container">
+        <article>
+            <h2>Referencia</h2>
+            <p class="idopontleir">
+                Csapatunk több mint 10 év munkatapasztalattal rendelkezik. Asztalos műhelyünk számos elégedett ügyféllel
+                büszkélkedhet, akiknek otthonaikat egyedi asztalainkkal díszítettük. Az alábbiakban néhány olyan
+                projektet szeretnénk bemutatni, amelyek során kreativitásunk és szakértelmünk összetalálkozott,
+                létrehozva olyan bútorokat, amelyek a várakozásokat felülmúlták. <br>
+                Üzletünk büszkén szolgálja azokat, akik minőségi, egyedi asztalokra vágynak. Tapasztalt csapatunk
+                elkötelezett abban, hogy elképzeléseit valóra váltsuk, és otthonába olyan egyedi bútorokat tervezzünk és
+                készítsünk, amelyek kifejezik az Ön stílusát.
+            </p>
+        </article>
+        <article id="images" class="galleria">
+            <img src="images/pictures/referencia/img1.png" alt="Ezt a konyhát 2022 nyarán készítettük."
+                title="Sötét konyha">
+            <img src="images/pictures/referencia/img2.png" alt="Ezt a konyhát 2021 őszén készítettük."
+                title="Világos konyha">
+            <img src="images/pictures/referencia/img3.png" alt="Ezt a konyhát 2023 nyarán készítettük."
+                title="Világos konyha">
+            <img src="images/pictures/referencia/img4.png" alt="Ezt a konyhát 2020 telén készítettük."
+                title="Sötét konyha">
+            <img src="images/pictures/referencia/img5.png" alt="Ezt a konyhát 2018 tavaszán készítettük."
+                title="Sötét konyha">
+            <img src="images/pictures/referencia/img6.png" alt="Ezt a konyhát 2021 nyarán készítettük."
+                title="Világos konyha">
+            <img src="images/pictures/referencia/img7.png" alt="Ezt a konyhát 2022 telén készítettük."
+                title="Világos konyha">
+            <img src="images/pictures/referencia/img8.png" alt="Ezt a konyhát 2023 tavaszán készítettük."
+                title="Sötét konyha">
+        </article>
+    </div>
+    <footer>
+        Készítette: Eiles Kristóf
+    </footer>
+</body>
+
+</html>
