@@ -1,6 +1,6 @@
 1. Oldal készítője: Eiles Kristóf
 
-2. Weblap URL címe: http://web.uni-corvinus.hu/~***/
+2. Weblap URL címe: https://eileskr.github.io/webfejlesztes/
 
 3. Rövid leírás: Megismerhetjük egy asztalos cég munkáit, érdeklődhetünk, sőt még árat is kalkulálhatunk a honlapon. A honlap fő célja, hogy a potenciális vásárló elköteleződjön a cég mellett.
 
